@@ -1,0 +1,41 @@
+[
+    {
+        "DisplayName": "Starting Date",
+        "Category": "Command Line Arguments",
+        "Description": "Set the start date of the game. The default value is 1950.",
+        "Keywords": "command,line,starting,date",
+        "FieldName": "-t",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-t",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1950",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Game",
+        "Category": "Command Line Arguments",
+        "Description": "Specify a save file or scenario to load. If left blank, a new game will start instead.",
+        "Keywords": "command,line,game",
+        "FieldName": "-g",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-g",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Seed",
+        "Category": "Command Line Arguments",
+        "Description": "Sets the random seed.",
+        "Keywords": "command,line,seed",
+        "FieldName": "-G",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-G",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]
